@@ -1,0 +1,35 @@
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #2e447b
+}
+
+.appContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.verticalDivider {
+	border-left: 2px solid #2e447b;
+	background: #2e447b;
+	margin: 30px 0px;
+}
+
+.hilight{
+	color: #ff627c;
+	font-weight: 600;
+}
+
+.upper{
+	text-transform: uppercase;
+}
+
+.bottleInfo{
+	margin: 0px 0 -60px 5px;
+}
+
+.bottleContentsContainer, .blendContainer {
+	display: flex;
+	width: 50%;
+	margin: 50px 25px;
+	flex-direction: column;
+}

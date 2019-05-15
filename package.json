@@ -1,0 +1,45 @@
+{
+  "name": "esalon-react-test-anuj-tyagi",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.128",
+    "@types/react": "^16.8.16",
+    "@types/react-redux": "^7.0.8",
+    "@types/recharts": "^1.1.16",
+    "axios": "0.18.0",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-scripts": "3.0.0",
+    "recharts": "1.6.0",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
