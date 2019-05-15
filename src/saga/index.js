@@ -15,7 +15,7 @@ function* fetchEffectsSaga(action) {
     let { data } = yield call(fetchAPIData) || appData;
     yield put(dataReceived(data.data));
     // let { data } = appData;
-		// yield put(dataReceived(data));
+    // yield put(dataReceived(data));
   } catch (e) {
     console.log(e)
   }
